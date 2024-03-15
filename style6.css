@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+
+}
+.bgc{
+    background-color: black;
+}
+
+.nav_logo{
+    color:violet;
+    font-weight: 500px;
+    font-size: 25px;
+    font-style:bold;
+   
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    height:100vh;
+    background-size: cover;
+   
+}
+.link a{
+    font-weight: 100px;
+    font-style: bold;
+    text-decoration: none;
+    display: flex;
+    gap:5rem;
+    color:white;
+    transition: 0.3s;
+}
+.nav_links{
+    display:flex;
+    list-style: none;
+    gap:5rem;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.link a:hover{
+    color:violet;
+    border-bottom: 2px solid violet;
+    font-weight:700;
+}
+.link .nav__btn {
+    padding: .5rem 2rem;
+    color:white;
+    background-color:violet;
+    border-radius:5px;
+}
+.heading_1{
+    color:violet;
+}
+.buttons .btn1{
+    padding: .5rem 2rem;
+    color:white;
+    background-color: violet;
+    border-radius: 5px;
+    border: none;
+    transition:0.3s;
+}
+.buttons .btn2{
+    padding: .5rem 2rem;
+    color:black;
+    background-color:white;
+    border-radius: 5px;
+    border: black;
+}
+.buttons .btn1:hover{
+    color:white;
+    background-color:black;
+
+}
+.buttons .btn2:hover{
+    color:black;
+    background-color:violet;
+    /* background-color:white; */
+
+
+    
+
+}
+.link .nav__btn:hover {
+    background-color: black;
+}
+.nav1{
+    height:70px;
+    /* position:fixed;
+    width:100%; */
+    background-color: black;
+}
+.class{
+    
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.girl{
+    margin-top: 30px;
+    border-radius:50px;
+    height:300px;
+}
+.aboutme{
+    margin-top:60px;
+    text-align:left;
+    margin-left: 10px;
+}
+.but{
+    padding:.5rem 2rem;
+    background-color: violet;
+    border:none;
+    border-radius: 5px;
+    font-size: 15px;
+    color:white;
+}
+.but:hover{
+    background-color: black;
+}
+
+.container_info{
+    
+    gap:10px;
+}
+.box{
+   /* margin-top:70px;*/
+    text-align: center;
+}
+.b{
+    margin-top:25px;
+    padding:5px;
+
+}
+input{
+    margin:15px;
+    height:30px;
+    width:300px;
+    border-radius:5px;
+    padding-left:100px;
+    margin-left:120px;
+    box-shadow: 2px 2px solid black;
+
+   
+
+}
+.b1::selection{
+color:violet;
+}
+.s{
+    padding:.5rem,2rem;
+    border-radius:5px;
+    height:40px;
+    width:80px;
+    padding-left:10px;
+    background-color: violet;
+    color:white;
+    border:none;
+}
+.s:hover{
+    background-color: black;
+}
+.class{
+   /* border:2px solid violet;*/
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+}
+.box{
+    margin-top: 310px;
+   /* border:2px solid violet;*/
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+}
+/*.nav1{
+    border:2px solid violet;
+    border-radius: 25px;
+    background-color: black;
+    color:white;
+}*/
+.container_info{
+   /* border:2px solid violet;*/
+    border-radius:15px;
+    background-color: black;
+    color:white;
+    padding-left: 20px;
+
+}
+.buttons{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.but{
+    margin-top:40px;
+}
+.h1,.h{
+    margin-top:30px;
+}
+.h0{
+    margin-top:20px;
+}
+.para{
+    margin-top:15px;
+}
+.para1{
+    margin-top:15px;
+    margin-right:150px;
+}
+.nav1{
+    border-radius:2px;
+}
+.projects{
+    margin-top:200px;
+    
+    color:white;
+}
+.li{
+    margin-top:15px;
+}
+.li1{
+    margin-top:30px;
+
+}
+h3{
+    color:violet;
+}
+.e,.e1,.e2{
+    color:white;
+}
+.edu{
+    margin-top:200px;
+}
+.ed1{
+    color:white;
+}
+.b,.b1,.b2{
+    margin-top:30px;
+}
+
+ .lk{
+    color:black;
+
+}
+ .lk a{
+    color:black;
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.end{
+    margin-top:150px;
+    height:100px;
+    width:100%;
+    background-color:white;
+
+
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+/* 
+.list{
+
+
+    display: flex;
+    align-items:center;
+    justify-content: space-ar;
+    margin-left:40%;
+} */
+
+.lk a{
+    margin-right:20px;
+    text-decoration: none;
+    list-style:none;
+    font-weight:700;
+}
+.lk a:hover{
+    color:violet;
+    font-weight:700;
+}
+.lk{
+    list-style: none;
+}
+
+/* .lk a{
+    text-decoration: none;
+    color:white;
+    display: flex;
+} */
+.class{
+    margin-top: 150px;
+}
